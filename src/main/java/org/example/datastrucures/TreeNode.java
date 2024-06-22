@@ -75,7 +75,24 @@ public class TreeNode {
         }
     }
 
+    public void traverseInOrder(){
+        if(leftChild != null){
+            leftChild.traverseInOrder();
+        }
+        System.out.print(data+" , ");
+        if(rightChild != null){
+            rightChild.traverseInOrder();
+        }
+    }
 
+public int max(){
+        if(rightChild == null){
+            return data;
+        }
+        else{
+            return rightChild.max();
+        }
+}
 
 
     @Override

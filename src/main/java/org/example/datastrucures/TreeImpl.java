@@ -10,5 +10,8 @@ public class TreeImpl {
         treeData.insert(30);
         System.out.println(treeData);
         System.out.println(treeData.get(3));
+        treeData.printDataInOrder();
+        System.out.println();
+        System.out.println(treeData.max());
     }
 }
