@@ -1,0 +1,17 @@
+add(e) => add the object
+offer(e) => add the object, return true object added successfully, failure false
+remove(e) => delete the object
+poll()=> remove the first element
+element => retrieves the first element
+peek()=>Retrieve the element,
++findUniqueNumbersCount(int[],int) : String
+
+
+    -Should accept int array of numbers, length of sub array as input
+    -Should find the maximum count of unique numbers in sub array of given length
+    -Should return "Give proper input not empty array" if given array is empty
+    -Should return "Give proper input not null array" if given array is null
+    -Should return "Give proper input, sub array length exceeds array length" if length of sub array is greater than length of array
+    -Should return "Give proper input, sub array length can not be negative or zero" if given sub array length is zero or negative
+    -Should return "Count of Unique Numbers is 2" if count of unique numbers in sub array of given length is 2
+
